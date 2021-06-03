@@ -9,7 +9,7 @@
 title: Retroarcher test
 
 # Your name to show in the footer
-author: defenceplox
+author: RetroArcher
 
 # --- List of links in the navigation bar --- #
 
@@ -17,14 +17,14 @@ navbar-links:
   Home: "#top"
   About: "#about"
   Features: "#features"
-  Social:
+  Social: "#social"
     - Discord: "https://discord.gg/d6MpcrbYQs"
     - Facebook Page: "https://www.facebook.com/RetroArcherFB"
     - Facebook Group: "https://www.facebook.com/groups/RetroArcher"
     - Reddit: "https://www.reddit.com/r/RetroArcher"
     - Twitter: "https://twitter.com/RetroArcherTW"
     - Youtube: "https://www.youtube.com/channel/UCtSzs1U8B7yYX1uE58a6BxA"
-  Donate: 
+  Donate: "#donate"
     - Patreon: "https://www.patreon.com/RetroArcher"
     - Github Sponsors: "https://github.com/sponsors/ReenigneArcher"
     - Paypal: "https://paypal.me/ReenigneArcher"
