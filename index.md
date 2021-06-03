@@ -31,27 +31,32 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 </div>
 
 <div class="conts">
-		<div class="cont active">
-			<img src="assets\img\controllers\xboxseriesx.png">
-		</div>
-		<div class="cont next">
-			<img src="assets\img\controllers\ps4.png">
-		</div>
-		<div class="cont">
-			<img src="assets\img\controllers\ps5.png">
-		</div>
-		<div class="cont">
-			<img src="assets\img\controllers\xboxone.png">
-		</div>
-		<div class="cont prev">
-			<img src="assets\img\controllers\luna.png">
-    </div>
-		<div class="button-container">
-			<div class="button"><i class="fas fa-angle-left"></i></div>
-			<div class="button"><i class="fas fa-angle-right"></i></div>
-		</div>
+	<div class="cont active">
+		<img src="assets\img\controllers\xboxseriesx.png">
+	</div>
+	<div class="cont next">
+		<img src="assets\img\controllers\ps4.png">
+	</div>
+	<div class="cont">
+		<img src="assets\img\controllers\ps5.png">
+	</div>
+	<div class="cont">
+		<img src="assets\img\controllers\xboxone.png">
+	</div>
+	<div class="cont prev">
+		<img src="assets\img\controllers\luna.png">
+</div>
+	<div class="button-container">
+		<div class="button"><i class="fas fa-angle-left"></i></div>
+		<div class="button"><i class="fas fa-angle-right"></i></div>
+	</div>
 </div>
 
+<pre>
+
+
+
+</pre>
 
 <a name="summary"></a>
 # Summary
@@ -68,7 +73,6 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   
 ✔ Open Source  
   
-
 <pre>
 
 </pre>
