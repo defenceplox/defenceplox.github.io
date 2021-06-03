@@ -68,9 +68,11 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   
 ✔ Personalize your library  
   
-✔ Play using almost any controller  
+✔ Play using almost any bluetooth controller  
   
-✔ Compatible with Android, Windows, Plex for Kodi and official Plex apps  
+✔ Compatible with Android and Windows devices  
+  
+✔ Works with offical Plex apps and Plex for Kodi  
   
 ✔ Access for shared users  
   
@@ -80,25 +82,35 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 
 </pre>
 
+<a name="download"></a>
+# Download
+<ul class="list-inline text-center footer-links">
+
+{%- if site.download-section-link.user -%}
+  {%- if site.download-section-link.repository -%}
+    {%- if site.download-section-link.branch -%}
+      <li class="list-inline-item">
+        <a href="https://github.com/{{ site.download-section-link.user }}/{{ site.download-section-link.repository }}/archive/refs/heads/{{ site.download-section-link.branch }}.zip" title="Download">
+          <span class="fa-stack fa-lg" aria-hidden="true">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+          <span class="sr-only">Download</span>
+       </a>
+      </li>
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+
+</ul>
+
 <a name="social"></a>
 # Social
 <ul class="list-inline text-center footer-links">
 
-{%- if site.rss-description -%}
+{%- if site.social-section-links.email -%}
   <li class="list-inline-item">
-    <a href="{{ '/feed.xml' | relative_url }}" title="RSS">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">RSS</span>
-    </a>
-  </li>
-{%- endif -%}
-
-{%- if site.social-network-links.email -%}
-  <li class="list-inline-item">
-    <a href="mailto:{{ site.social-network-links.email }}" title="Email me">
+    <a href="mailto:{{ site.social-section-links.email }}" title="Email me">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
@@ -108,9 +120,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.calendly -%}
+{%- if site.social-section-links.calendly -%}
   <li class="list-inline-item">
-    <a href="https://calendly.com/{{ site.social-network-links.calendly }}" title="Schedule a meeting with me">
+    <a href="https://calendly.com/{{ site.social-section-links.calendly }}" title="Schedule a meeting with me">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-calendar-check fa-stack-1x fa-inverse"></i>
@@ -120,9 +132,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.facebook -%}
+{%- if site.social-section-links.facebook -%}
   <li class="list-inline-item">
-    <a href="https://www.facebook.com/{{ site.social-network-links.facebook }}" title="Facebook">
+    <a href="https://www.facebook.com/{{ site.social-section-links.facebook }}" title="Facebook">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
@@ -132,9 +144,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.telegram -%}
+{%- if site.social-section-links.telegram -%}
   <li class="list-inline-item">
-    <a href="https://t.me/{{ site.social-network-links.telegram }}" title="Telegram">
+    <a href="https://t.me/{{ site.social-section-links.telegram }}" title="Telegram">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-telegram-plane fa-stack-1x fa-inverse"></i>
@@ -144,9 +156,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.github -%}
+{%- if site.social-section-links.github -%}
   <li class="list-inline-item">
-    <a href="https://github.com/{{ site.social-network-links.github }}" title="GitHub">
+    <a href="https://github.com/{{ site.social-section-links.github }}" title="GitHub">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -156,9 +168,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.twitter -%}
+{%- if site.social-section-links.twitter -%}
   <li class="list-inline-item">
-    <a href="https://twitter.com/{{ site.social-network-links.twitter }}" title="Twitter">
+    <a href="https://twitter.com/{{ site.social-section-links.twitter }}" title="Twitter">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
@@ -168,9 +180,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.reddit -%}
+{%- if site.social-section-links.reddit -%}
   <li class="list-inline-item">
-    <a href="https://reddit.com/r/{{ site.social-network-links.reddit }}" title="Reddit">
+    <a href="https://reddit.com/r/{{ site.social-section-links.reddit }}" title="Reddit">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
@@ -180,9 +192,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.linkedin -%}
+{%- if site.social-section-links.linkedin -%}
   <li class="list-inline-item">
-    <a href="https://linkedin.com/in/{{ site.social-network-links.linkedin }}" title="LinkedIn">
+    <a href="https://linkedin.com/in/{{ site.social-section-links.linkedin }}" title="LinkedIn">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
@@ -192,9 +204,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.xing -%}
+{%- if site.social-section-links.xing -%}
   <li class="list-inline-item">
-    <a href="https://www.xing.com/profile/{{ site.social-network-links.xing }}" title="Xing">
+    <a href="https://www.xing.com/profile/{{ site.social-section-links.xing }}" title="Xing">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-xing fa-stack-1x fa-inverse"></i>
@@ -204,9 +216,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.stackoverflow -%}
+{%- if site.social-section-links.stackoverflow -%}
   <li class="list-inline-item">
-    <a href="https://stackoverflow.com/users/{{ site.social-network-links.stackoverflow }}" title="StackOverflow">
+    <a href="https://stackoverflow.com/users/{{ site.social-section-links.stackoverflow }}" title="StackOverflow">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
@@ -216,9 +228,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.snapchat -%}
+{%- if site.social-section-links.snapchat -%}
   <li class="list-inline-item">
-    <a href="https://www.snapchat.com/add/{{ site.social-network-links.snapchat }}" title="Snapchat">
+    <a href="https://www.snapchat.com/add/{{ site.social-section-links.snapchat }}" title="Snapchat">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
@@ -228,9 +240,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.instagram -%}
+{%- if site.social-section-links.instagram -%}
   <li class="list-inline-item">
-    <a href="https://www.instagram.com/{{ site.social-network-links.instagram }}" title="Instagram">
+    <a href="https://www.instagram.com/{{ site.social-section-links.instagram }}" title="Instagram">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
@@ -240,9 +252,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.youtube -%}
+{%- if site.social-section-links.youtube -%}
   <li class="list-inline-item">
-    <a href="https://www.youtube.com/channel/{{ site.social-network-links.youtube }}" title="YouTube">
+    <a href="https://www.youtube.com/channel/{{ site.social-section-links.youtube }}" title="YouTube">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
@@ -252,9 +264,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.spotify -%}
+{%- if site.social-section-links.spotify -%}
   <li class="list-inline-item">
-    <a href="https://open.spotify.com/user/{{ site.social-network-links.spotify }}" title="Spotify">
+    <a href="https://open.spotify.com/user/{{ site.social-section-links.spotify }}" title="Spotify">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-spotify fa-stack-1x fa-inverse"></i>
@@ -264,9 +276,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.telephone -%}
+{%- if site.social-section-links.telephone -%}
   <li class="list-inline-item">
-    <a href="tel:{{ site.social-network-links.telephone }}" title="Phone">
+    <a href="tel:{{ site.social-section-links.telephone }}" title="Phone">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-phone fa-stack-1x fa-inverse"></i>
@@ -276,9 +288,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.steam -%}
+{%- if site.social-section-links.steam -%}
   <li class="list-inline-item">
-    <a href="https://steamcommunity.com/id/{{ site.social-network-links.steam }}" title="Steam">
+    <a href="https://steamcommunity.com/id/{{ site.social-section-links.steam }}" title="Steam">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-steam fa-stack-1x fa-inverse"></i>
@@ -288,9 +300,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.twitch -%}
+{%- if site.social-section-links.twitch -%}
   <li class="list-inline-item">
-    <a href="https://www.twitch.tv/{{ site.social-network-links.twitch }}" title="Twitch">
+    <a href="https://www.twitch.tv/{{ site.social-section-links.twitch }}" title="Twitch">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-twitch fa-stack-1x fa-inverse"></i>
@@ -300,9 +312,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.yelp -%}
+{%- if site.social-section-links.yelp -%}
   <li class="list-inline-item">
-    <a href="https://{{ site.social-network-links.yelp }}.yelp.com" title="Yelp">
+    <a href="https://{{ site.social-section-links.yelp }}.yelp.com" title="Yelp">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-yelp fa-stack-1x fa-inverse"></i>
@@ -312,9 +324,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.mastodon -%}
+{%- if site.social-section-links.mastodon -%}
   <li class="list-inline-item">
-    <a href="https://{{ site.social-network-links.mastodon }}" title="Mastodon">
+    <a href="https://{{ site.social-section-links.mastodon }}" title="Mastodon">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
@@ -324,9 +336,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.ORCID -%}
+{%- if site.social-section-links.ORCID -%}
  <li class="list-inline-item">
-   <a href="https://orcid.org/{{ site.social-network-links.ORCID }}" title="ORCID">
+   <a href="https://orcid.org/{{ site.social-section-links.ORCID }}" title="ORCID">
      <span class="fa-stack fa-lg" aria-hidden="true">
        <i class="fas fa-circle fa-stack-2x"></i>
        <i class="fab fa-orcid fa-stack-1x fa-inverse"></i>
@@ -336,9 +348,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
  </li>
 {%- endif -%}
 
-{%- if site.social-network-links.google-scholar -%}
+{%- if site.social-section-links.google-scholar -%}
   <li class="list-inline-item">
-    <a href="https://scholar.google.com/{{ site.social-network-links.google-scholar }}" title="Google Scholar">
+    <a href="https://scholar.google.com/{{ site.social-section-links.google-scholar }}" title="Google Scholar">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
@@ -348,9 +360,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.patreon -%}
+{%- if site.social-section-links.patreon -%}
   <li class="list-inline-item">
-    <a href="https://patreon.com/{{ site.social-network-links.patreon }}" title="Patreon">
+    <a href="https://patreon.com/{{ site.social-section-links.patreon }}" title="Patreon">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-patreon fa-stack-1x fa-inverse"></i>
@@ -360,9 +372,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
   
-{%- if site.social-network-links.medium -%}
+{%- if site.social-section-links.medium -%}
   <li class="list-inline-item">
-    <a href="https://medium.com/@{{ site.social-network-links.medium }}" title="Medium">
+    <a href="https://medium.com/@{{ site.social-section-links.medium }}" title="Medium">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
@@ -372,9 +384,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.social-network-links.itchio -%}
+{%- if site.social-section-links.itchio -%}
   <li class="list-inline-item">
-    <a href="https://{{ site.social-network-links.itchio }}.itch.io/" title="Itchio">
+    <a href="https://{{ site.social-section-links.itchio }}.itch.io/" title="Itchio">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-itch-io fa-stack-1x fa-inverse"></i>
@@ -390,9 +402,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 # Donate
 <ul class="list-inline text-center footer-links">
 
-{%- if site.donate-network-links.github -%}
+{%- if site.donate-section-links.github -%}
   <li class="list-inline-item">
-    <a href="https://github.com/sponsors/{{ site.donate-network-links.github }}" title="GitHub">
+    <a href="https://github.com/sponsors/{{ site.donate-section-links.github }}" title="GitHub">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -402,9 +414,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.donate-network-links.patreon -%}
+{%- if site.donate-section-links.patreon -%}
   <li class="list-inline-item">
-    <a href="https://patreon.com/{{ site.donate-network-links.patreon }}" title="Patreon">
+    <a href="https://patreon.com/{{ site.donate-section-links.patreon }}" title="Patreon">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fab fa-patreon fa-stack-1x fa-inverse"></i>
@@ -414,9 +426,9 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   </li>
 {%- endif -%}
 
-{%- if site.donate-network-links.paypal -%}
+{%- if site.donate-section-links.paypal -%}
   <li class="list-inline-item">
-    <a href="https://paypal.me/{{ site.donate-network-links.paypal }}" title="PayPal">
+    <a href="https://paypal.me/{{ site.donate-section-links.paypal }}" title="PayPal">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
         <i class="fas fa-rss fa-stack-1x fa-inverse"></i>

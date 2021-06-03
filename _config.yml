@@ -17,6 +17,7 @@ navbar-links:
   Home: "#top"
   About: "#about"
   Features: "#features"
+  Download: "#download"
   Social:
     - Discord: "https://discord.gg/d6MpcrbYQs"
     - Facebook Page: "https://www.facebook.com/RetroArcherFB"
@@ -57,10 +58,25 @@ social-network-links:
   youtube: UCtSzs1U8B7yYX1uE58a6BxA
 
 
-donate-network-links:
+social-section-links:
+  github: RetroArcher
+  facebook: RetroArcherFB
+  reddit: RetroArcher
+  twitter: RetroArcherTW
+  youtube: UCtSzs1U8B7yYX1uE58a6BxA
+
+
+donate-section-links:
   github: RetroArcher
   patreon: RetroArcher
   paypal: ReenigneArcher
+
+
+download-section-link:
+  user: RetroArcher
+  repository: RetroArcher.bundle
+  branch: main
+
 
 # --- General options --- #
 
