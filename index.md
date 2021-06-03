@@ -28,8 +28,6 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   <div class="item"><img src="/assets/img/systems/n64.png"></div>
   <div class="item"><img src="/assets/img/systems/ps2.png"></div>
 </div>
-<div class="summary">
-<body>
 
 ## Summary <a name="summary"></a>
 
@@ -45,8 +43,7 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   
 ✔ Open Source  
   
-</body>
-</div>
+
 <pre>
 
 </pre>
