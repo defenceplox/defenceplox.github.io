@@ -388,4 +388,42 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 
 <a name="donate"></a>
 # Donate
+<ul class="list-inline text-center footer-links">
 
+{%- if site.donate-network-links.github -%}
+  <li class="list-inline-item">
+    <a href="https://github.com/sponsors/{{ site.donate-network-links.github }}" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li>
+{%- endif -%}
+
+{%- if site.donate-network-links.patreon -%}
+  <li class="list-inline-item">
+    <a href="https://patreon.com/{{ site.donate-network-links.patreon }}" title="Patreon">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-patreon fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Patreon</span>
+    </a>
+  </li>
+{%- endif -%}
+
+{%- if site.donate-network-links.paypal -%}
+  <li class="list-inline-item">
+    <a href="https://paypal.me/{{ site.donate-network-links.paypal }}" title="PayPal">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">PayPal</span>
+    </a>
+  </li>
+{%- endif -%}
+
+</ul>

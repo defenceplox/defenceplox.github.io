@@ -56,6 +56,12 @@ social-network-links:
   twitter: RetroArcherTW
   youtube: UCtSzs1U8B7yYX1uE58a6BxA
 
+
+donate-network-links:
+  github: RetroArcher
+  patreon: RetroArcher
+  paypal: ReenigneArcher
+
 # --- General options --- #
 
 # Select which social network share links to show in posts
