@@ -12,14 +12,15 @@ js:
 
 
 </pre>
-## What is RetroArcher? <a name="about"></a>
+<a name="about"></a>
+## What is RetroArcher?
 
 RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal of RetroArcher is to use Plex as a gaming front end interface and then use proven game streaming technology to stream your game play to any of your standard Plex clients. Simply put RetroArcher is to video games, what Plex is to multimedia.
 <pre>
 
 </pre>
-
-## Features <a name="features"></a>
+<a name="features"></a>
+## Features
 
 <div class="gallery">
   <div class="item"><img src="/assets/img/systems/dreamcast.png"></div>
@@ -28,25 +29,6 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
   <div class="item"><img src="/assets/img/systems/n64.png"></div>
   <div class="item"><img src="/assets/img/systems/ps2.png"></div>
 </div>
-
-## Summary <a name="summary"></a>
-
-✔ Add your own game ROMS  
-  
-✔ Personalize your library  
-  
-✔ Play using almost any controller  
-  
-✔ Compatible with Android, Windows, Plex for Kodi and official Plex apps  
-  
-✔ Access for shared users  
-  
-✔ Open Source  
-  
-
-<pre>
-
-</pre>
 
 <div class="conts">
 		<div class="cont active">
@@ -69,6 +51,27 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 			<div class="button"><i class="fas fa-angle-right"></i></div>
 		</div>
 </div>
+
+
+<a name="summary"></a>
+# Summary
+
+✔ Add your own game ROMS  
+  
+✔ Personalize your library  
+  
+✔ Play using almost any controller  
+  
+✔ Compatible with Android, Windows, Plex for Kodi and official Plex apps  
+  
+✔ Access for shared users  
+  
+✔ Open Source  
+  
+
+<pre>
+
+</pre>
 
 ## Important! <a name="licence"></a>
 Read the entire Wiki before running any scripts!
