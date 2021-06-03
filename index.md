@@ -82,28 +82,6 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 
 </pre>
 
-<a name="download"></a>
-# Download
-<ul class="list-inline text-center footer-links">
-
-{%- if site.download-section-link.user -%}
-  {%- if site.download-section-link.repository -%}
-    {%- if site.download-section-link.branch -%}
-      <li class="list-inline-item">
-        <a href="https://github.com/{{ site.download-section-link.user }}/{{ site.download-section-link.repository }}/archive/refs/heads/{{ site.download-section-link.branch }}.zip" title="Download">
-          <span class="fa-stack fa-lg" aria-hidden="true">
-            <i class="fas fa-circle fa-stack-2x"></i>
-            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-          </span>
-          <span class="sr-only">Download</span>
-       </a>
-      </li>
-    {%- endif -%}
-  {%- endif -%}
-{%- endif -%}
-
-</ul>
-
 <a name="social"></a>
 # Social
 <ul class="list-inline text-center footer-links">
@@ -398,6 +376,7 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 
 </ul>
 
+
 <a name="donate"></a>
 # Donate
 <ul class="list-inline text-center footer-links">
@@ -439,3 +418,27 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 {%- endif -%}
 
 </ul>
+
+
+<a name="download"></a>
+# Download
+<ul class="list-inline text-center footer-links">
+
+{%- if site.download-section-link.user -%}
+  {%- if site.download-section-link.repository -%}
+    {%- if site.download-section-link.branch -%}
+      <li class="list-inline-item">
+        <a href="https://github.com/{{ site.download-section-link.user }}/{{ site.download-section-link.repository }}/archive/refs/heads/{{ site.download-section-link.branch }}.zip" title="Download">
+          <span class="fa-stack fa-lg" aria-hidden="true">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+          <span class="sr-only">Download</span>
+       </a>
+      </li>
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+
+</ul>
+

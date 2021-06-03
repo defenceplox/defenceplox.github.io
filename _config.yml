@@ -17,7 +17,6 @@ navbar-links:
   Home: "#top"
   About: "#about"
   Features: "#features"
-  Download: "#download"
   Social:
     - Discord: "https://discord.gg/d6MpcrbYQs"
     - Facebook Page: "https://www.facebook.com/RetroArcherFB"
@@ -29,6 +28,7 @@ navbar-links:
     - Patreon: "https://www.patreon.com/RetroArcher"
     - Github Sponsors: "https://github.com/sponsors/ReenigneArcher"
     - Paypal: "https://paypal.me/ReenigneArcher"
+  Download: "#download"
   Wiki: "https://github.com/RetroArcher/RetroArcher.bundle/wiki"
 
 # --- Logo --- #
