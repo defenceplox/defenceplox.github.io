@@ -1,0 +1,28 @@
+.gallery {
+    display: flex;
+    margin-top: 50px;
+  }
+  
+  .item {
+    transition: transform 300ms ease 100ms;
+  }
+  
+  .item:after {
+    content: "";
+    display: block;
+    padding-top: 70%;
+  }
+  
+  
+  .gallery:hover .item {
+    transform: translateX(-5%);
+  }
+  
+  .item:hover ~ .item {
+    transform: translateX(5%);
+  }
+  
+  .gallery .item:hover {
+    transform: scale(1.1);
+  }
+  

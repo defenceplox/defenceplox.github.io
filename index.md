@@ -1,37 +1,79 @@
-## Welcome to GitHub Pages
+---
+layout: page
+title: RetroArcher
+subtitle: Retro gaming in Plex!
+css:
+    - "/assets/css/gallery.css"
+    - "/assets/css/contgallery.css"
+js: 
+    - "/assets/js/contgallery.js"
+---
+<pre>
 
-You can use the [editor on GitHub](https://github.com/RetroArcher/Retroarcher.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+</pre>
+## What is RetroArcher? <a name="about"></a>
 
-### Markdown
+RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal of RetroArcher is to use Plex as a gaming front end interface and then use proven game streaming technology to stream your game play to any of your standard Plex clients. Simply put RetroArcher is to video games, what Plex is to multimedia.
+<pre>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+</pre>
 
-```markdown
-Syntax highlighted code block
+## Features <a name="features"></a>
 
-# Header 1
-## Header 2
-### Header 3
+<div class="gallery">
+  <div class="item"><img src="/assets/img/systems/dreamcast.png"></div>
+  <div class="item"><img src="/assets/img/systems/gc.png"></div>
+  <div class="item"><img src="/assets/img/systems/genesis.png"></div>
+  <div class="item"><img src="/assets/img/systems/n64.png"></div>
+  <div class="item"><img src="/assets/img/systems/ps2.png"></div>
+</div>
+<div class="summary">
+<body>
 
-- Bulleted
-- List
+## Summary <a name="summary"></a>
 
-1. Numbered
-2. List
+✔ Add your own game ROMS  
+  
+✔ Personalize your library  
+  
+✔ Play using almost any controller  
+  
+✔ Compatible with Android, Windows, Plex for Kodi and official Plex apps  
+  
+✔ Access for shared users  
+  
+✔ Open Source  
+  
+</body>
+</div>
+<pre>
 
-**Bold** and _Italic_ and `Code` text
+</pre>
 
-[Link](url) and ![Image](src)
-```
+<div class="conts">
+		<div class="cont active">
+			<img src="assets\img\controllers\xboxseriesx.png">
+		</div>
+		<div class="cont next">
+			<img src="assets\img\controllers\ps4.png">
+		</div>
+		<div class="cont">
+			<img src="assets\img\controllers\ps5.png">
+		</div>
+		<div class="cont">
+			<img src="assets\img\controllers\xboxone.png">
+		</div>
+		<div class="cont prev">
+			<img src="assets\img\controllers\luna.png">
+    </div>
+		<div class="button-container">
+			<div class="button"><i class="fas fa-angle-left"></i></div>
+			<div class="button"><i class="fas fa-angle-right"></i></div>
+		</div>
+</div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Important! <a name="licence"></a>
+Read the entire Wiki before running any scripts!
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RetroArcher/Retroarcher.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+v0.0.1 06/02/2021 20:08 EST
