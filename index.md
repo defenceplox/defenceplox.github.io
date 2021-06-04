@@ -22,52 +22,21 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 <a name="features"></a>
 # Features
 
-Nintendo  
-{% include platform-gallery.html folder="/assets/img/platform_logos/nintendo" %}
-Sega  
-{% include platform-gallery.html folder="/assets/img/platform_logos/sega" %}
-Sony  
-{% include platform-gallery.html folder="/assets/img/platform_logos/sony" %}
+**Consoles**  
+{% include platform-gallery.html folder="/assets/img/platform_logos/consoles" %}
 
-<div class="gallery">
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo 3ds.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo 64.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo entertainment system.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo gamecube.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo super nintendo entertainment system.png"></div>
-</div>
+**Handhelds**  
+{% include platform-gallery.html folder="/assets/img/platform_logos/handhelds" %}
 
-<div class="conts">
-	<div class="cont active">
-		<img src="assets\img\controllers\xboxseriesx.png">
-	</div>
-	<div class="cont next">
-		<img src="assets\img\controllers\ps4.png">
-	</div>
-	<div class="cont">
-		<img src="assets\img\controllers\ps5.png">
-	</div>
-	<div class="cont">
-		<img src="assets\img\controllers\xboxone.png">
-	</div>
-	<div class="cont prev">
-		<img src="assets\img\controllers\luna.png">
-</div>
-	<div class="button-container">
-		<div class="button"><i class="fas fa-angle-left"></i></div>
-		<div class="button"><i class="fas fa-angle-right"></i></div>
-	</div>
-</div>
+**Coming Soon**  
+{% include platform-gallery.html folder="/assets/img/platform_logos/coming_soon" %}
+
+**Controllers**  
+{% include platform-gallery.html folder="/assets/img/controllers" %}
 
 <pre>
 
-
-
-
-
-
 </pre>
-
 <a name="summary"></a>
 # Summary
 
