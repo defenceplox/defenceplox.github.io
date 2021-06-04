@@ -22,24 +22,18 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 <a name="features"></a>
 # Features
 
+Nintendo  
+{% include platform-gallery.html folder="/assets/img/platform_logos/nintendo" %}
+Sega  
+{% include platform-gallery.html folder="/assets/img/platform_logos/sega" %}
+Sony  
+{% include platform-gallery.html folder="/assets/img/platform_logos/sony" %}
+
 <div class="gallery">
   <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo 3ds.png"></div>
   <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo 64.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo 64dd.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo ds.png"></div>
   <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo entertainment system.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo family computer disk system.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo family computer.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo game and watch.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo game boy advance.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo game boy color.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo game boy.png"></div>
   <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo gamecube.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo pokemon mini.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo satellaview.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo virtual boy.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo wii.png"></div>
-  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo super famicom.png"></div>
   <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo super nintendo entertainment system.png"></div>
 </div>
 
