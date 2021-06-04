@@ -23,11 +23,24 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 # Features
 
 <div class="gallery">
-  <div class="item"><img src="/assets/img/systems/dreamcast.png"></div>
-  <div class="item"><img src="/assets/img/systems/gc.png"></div>
-  <div class="item"><img src="/assets/img/systems/genesis.png"></div>
-  <div class="item"><img src="/assets/img/systems/n64.png"></div>
-  <div class="item"><img src="/assets/img/systems/ps2.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo 3ds.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo 64.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo 64dd.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo ds.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo entertainment system.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo family computer disk system.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo family computer.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo game and watch.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo game boy advance.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo game boy color.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo game boy.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo gamecube.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo pokemon mini.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo satellaview.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo virtual boy.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo wii.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo super famicom.png"></div>
+  <div class="item"><img src="/assets/img/platform_logos/nintendo/nintendo super nintendo entertainment system.png"></div>
 </div>
 
 <div class="conts">
@@ -62,7 +75,7 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 </pre>
 
 <a name="summary"></a>
-## Summary
+# Summary
 
 ✔ Add your own game ROMS  
   
