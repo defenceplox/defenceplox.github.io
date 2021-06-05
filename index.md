@@ -32,7 +32,7 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 {% include platform-gallery.html folder="/assets/img/platform_logos/coming_soon" %}
 
 **Controllers**  
-{% include platform-gallery.html folder="/assets/img/controllers" %}
+{% include controller-gallery.html folder="/assets/img/controllers" %}
 
 <pre>
 
