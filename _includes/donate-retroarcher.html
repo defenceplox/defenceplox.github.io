@@ -1,0 +1,39 @@
+<ul class="list-inline text-center footer-links">
+
+    {%- if site.donate-section-links.github -%}
+      <li class="list-inline-item">
+        <a href="https://github.com/sponsors/{{ site.donate-section-links.github }}" title="GitHub">
+          <span class="fa-stack fa-lg" aria-hidden="true">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+          </span>
+          <span class="sr-only">GitHub</span>
+       </a>
+      </li>
+    {%- endif -%}
+    
+    {%- if site.donate-section-links.patreon -%}
+      <li class="list-inline-item">
+        <a href="https://patreon.com/{{ site.donate-section-links.patreon }}" title="Patreon">
+          <span class="fa-stack fa-lg" aria-hidden="true">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fab fa-patreon fa-stack-1x fa-inverse"></i>
+          </span>
+          <span class="sr-only">Patreon</span>
+        </a>
+      </li>
+    {%- endif -%}
+    
+    {%- if site.donate-section-links.paypal -%}
+      <li class="list-inline-item">
+        <a href="https://paypal.me/{{ site.donate-section-links.paypal }}" title="PayPal">
+          <span class="fa-stack fa-lg" aria-hidden="true">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+          </span>
+          <span class="sr-only">PayPal</span>
+        </a>
+      </li>
+    {%- endif -%}
+    
+    </ul>

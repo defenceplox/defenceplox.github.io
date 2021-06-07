@@ -1,0 +1,19 @@
+<ul class="list-inline text-center footer-links">
+
+    {%- if site.download-section-link.user -%}
+      {%- if site.download-section-link.repository -%}
+        {%- if site.download-section-link.branch -%}
+          <li class="list-inline-item">
+            <a href="https://github.com/{{ site.download-section-link.user }}/{{ site.download-section-link.repository }}/releases/latest" title="Download">
+              <span class="fa-stack fa-lg" aria-hidden="true">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+              <span class="sr-only">Download</span>
+           </a>
+          </li>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+    
+    </ul>
