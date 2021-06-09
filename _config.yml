@@ -17,18 +17,10 @@ navbar-links:
   Home: "#top"
   About: "#about"
   Features: "#features"
-  Social:
-    - Discord: "https://discord.gg/d6MpcrbYQs"
-    - Facebook Page: "https://www.facebook.com/RetroArcherFB"
-    - Facebook Group: "https://www.facebook.com/groups/RetroArcher"
-    - Reddit: "https://www.reddit.com/r/RetroArcher"
-    - Twitter: "https://twitter.com/RetroArcherTW"
-    - Youtube: "https://www.youtube.com/channel/UCtSzs1U8B7yYX1uE58a6BxA"
-  Donate:
-    - Patreon: "https://www.patreon.com/RetroArcher"
-    - Github Sponsors: "https://github.com/sponsors/ReenigneArcher"
-    - Paypal: "https://paypal.me/ReenigneArcher"
+  Social: "#social"
+  Donate: "#donate"
   Download: "#download"
+  Feature Request: "featurereq"
   Wiki: "https://github.com/RetroArcher/RetroArcher.bundle/wiki"
 
 # --- Logo --- #
