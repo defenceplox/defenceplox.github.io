@@ -18,27 +18,6 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 
 
 </pre>
-<a name="summary"></a>
-# Summary
-
-✔ Play all your own ROMs from Plex!  
-  
-✔ Create a game library  
-  
-✔ Play using nearly any bluetooth controller  
-  
-✔ Compatible with Android and Windows devices  
-  
-✔ Works with offical Plex apps and Plex for Kodi  
-  
-✔ Access for shared users  
-  
-✔ Open Source  
-<pre>
-
-
-
-</pre>
 <a name="features"></a>
 # Features
 
@@ -79,10 +58,25 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 <a name="download"></a>
 # Download
   {% include download-retroarcher.html %}
-  <pre>
 
-
+<pre>
 
 
 
 </pre>
+<a name="summary"></a>
+# Summary
+
+✔ Play all your own ROMs from Plex!  
+  
+✔ Create a game library  
+  
+✔ Play using nearly any bluetooth controller  
+  
+✔ Compatible with Android and Windows devices  
+  
+✔ Works with offical Plex apps and Plex for Kodi  
+  
+✔ Access for shared users  
+  
+✔ Open Source  
