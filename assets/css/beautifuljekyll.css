@@ -1023,7 +1023,7 @@ pre {
   width: 100%; display: block;
 }
 .requests{
-  width: auto;
+  width: 500px;
   height: auto;
   margin-left: auto;
   margin-right: auto;
