@@ -6,6 +6,8 @@ subtitle: Retro gaming in Plex!
 <pre>
 
 
+
+
 </pre>
 BETA 07/06/2021 20:27
 <a name="about"></a>
@@ -13,6 +15,8 @@ BETA 07/06/2021 20:27
 
 RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal of RetroArcher is to use Plex as a gaming front end interface and then use proven game streaming technology to stream your gameplay to any of your standard Plex clients. Simply put RetroArcher is to video games, what Plex is to multimedia.
 <pre>
+
+
 
 </pre>
 <a name="summary"></a>
@@ -31,7 +35,11 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 ✔ Access for shared users  
   
 ✔ Open Source  
+<pre>
 
+
+
+</pre>
 <a name="features"></a>
 # Features
 
@@ -55,12 +63,11 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 
 **Controllers** - Nearly any bluetooth controller will work 
 {% include controller-gallery.html folder="/assets/img/controllers" %}
-
 <pre>
 
 
-</pre>
 
+</pre>
 <a name="social"></a>
 # Social
   {% include social-retroarcher.html %}
@@ -73,7 +80,10 @@ RetroArcher is a gaming plug-in for [Plex Media Server!](www.plex.tv) The goal o
 <a name="download"></a>
 # Download
   {% include download-retroarcher.html %}
+  <pre>
 
-<pre>
+
+
+
 
 </pre>
